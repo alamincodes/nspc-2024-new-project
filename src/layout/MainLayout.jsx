@@ -6,7 +6,7 @@ export const MainLayout = () => {
   return (
     <div className="bg-[#2782FF] h-full relative">
       <Navbar />
-      <div className="h-[calc(100vh-104px)]">
+      <div className="h-[calc(100vh-100px)]">
         <img
           src={wavesImg}
           alt="waves"

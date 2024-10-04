@@ -6,7 +6,8 @@ export default {
     extend: {
       fontFamily: {
         primary: ["Titan One", "sans-serif"],
-        secondary: ["Roboto", "sans-serif"],
+        // secondary: ["Roboto", "sans-serif"],
+        secondary: ["Museo Sans Rounded", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

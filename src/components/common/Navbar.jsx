@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="bg-[#1f4980] w-full sticky top-0">
-      <Container className="flex items-center justify-between py-7">
+      <Container className="flex items-center justify-between h-[100px]">
         <div>
-          <img src={Logo} alt="" className="h-12" />
+          <img src={Logo} alt="" className="h-16" />
         </div>
         <div>
           <ul className="flex items-center space-x-4 text-white">

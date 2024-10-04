@@ -16,6 +16,7 @@ export const quizData = [
           { optionId: "O1-1-3", optionText: "Weather patterns" },
           { optionId: "O1-1-4", optionText: "Ice caps" },
         ],
+        answer: "O1-1-2",
       },
       {
         questionId: "Q1-2",
@@ -28,6 +29,7 @@ export const quizData = [
           { optionId: "O1-2-3", optionText: "SpaceX" },
           { optionId: "O1-2-4", optionText: "ISRO" },
         ],
+        answer: "O1-2-2",
       },
       {
         questionId: "Q1-3",
@@ -39,6 +41,7 @@ export const quizData = [
           { optionId: "O1-3-3", optionText: "Cloud properties" },
           { optionId: "O1-3-4", optionText: "All of the above" },
         ],
+        answer: "O1-3-4",
       },
     ],
   },
@@ -58,6 +61,7 @@ export const quizData = [
           { optionId: "O2-1-3", optionText: "Photoshop" },
           { optionId: "O2-1-4", optionText: "MS Paint" },
         ],
+        answer: "O2-1-1", // Corrected to a valid answer
       },
       {
         questionId: "Q2-2",
@@ -70,6 +74,7 @@ export const quizData = [
           { optionId: "O2-2-3", optionText: "JPEG" },
           { optionId: "O2-2-4", optionText: "HTML" },
         ],
+        answer: "O2-2-1",
       },
       {
         questionId: "Q2-3",
@@ -85,6 +90,7 @@ export const quizData = [
           },
           { optionId: "O2-3-4", optionText: "Editing video files" },
         ],
+        answer: "O2-3-1",
       },
     ],
   },
@@ -105,6 +111,7 @@ export const quizData = [
           { optionId: "O3-1-3", optionText: "Reduced algae growth" },
           { optionId: "O3-1-4", optionText: "Low phytoplankton levels" },
         ],
+        answer: "O3-1-1",
       },
       {
         questionId: "Q3-2",
@@ -116,6 +123,7 @@ export const quizData = [
           { optionId: "O3-2-3", optionText: "Measure air quality" },
           { optionId: "O3-2-4", optionText: "Study cloud formation" },
         ],
+        answer: "O3-2-1",
       },
       {
         questionId: "Q3-3",
@@ -128,6 +136,7 @@ export const quizData = [
           { optionId: "O3-3-3", optionText: "Wind speed" },
           { optionId: "O3-3-4", optionText: "Tectonic activity" },
         ],
+        answer: "O3-3-1",
       },
     ],
   },

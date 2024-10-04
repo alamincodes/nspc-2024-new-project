@@ -24,6 +24,14 @@ function App() {
           element: <SingleQuiz />,
         },
         {
+          path: "/mapbox",
+          element: <VirtualTrip />,
+        },
+        {
+          path: "/course",
+          element: <VirtualTrip />,
+        },
+        {
           path: "/virtual-trip",
           element: <VirtualTrip />,
         },

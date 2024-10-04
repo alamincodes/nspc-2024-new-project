@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "@/assets/images/Logo.svg";
 import { Container } from "./Container";
 import { NavLink } from "react-router-dom";
@@ -21,7 +20,10 @@ export default function Navbar() {
               <NavLink to="/">Mapbox</NavLink>
             </li>
             <li>
-              <NavLink to="/">Curses</NavLink>
+              <NavLink to="/">Course</NavLink>
+            </li>
+            <li>
+              <NavLink to="/virtual-trip">Virtual Trip</NavLink>
             </li>
           </ul>
         </div>

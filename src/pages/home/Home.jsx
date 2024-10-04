@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex items-center text-white">
           {/* left */}
           <div className="relative z-10 w-full">
-            <img src={HomeCharacter} alt="" className="w-[800px] z-10" />
+            <img src={HomeCharacter} alt="" className="w-[700px] z-10" />
             <img
               src={bubbles_all}
               alt=""
@@ -23,7 +23,7 @@ export default function Home() {
 
             {/* fishes */}
             <img src={Fish} alt="" className="absolute right-0 w-24" />
-            <div className="absolute -bottom-[220px] right-36">
+            <div className="absolute -bottom-[150px] right-36">
               <img src={Starfish} alt="" className="w-16" />
             </div>
           </div>

@@ -5,6 +5,7 @@ import qShape from "@/assets/images/qShape.png";
 import trees from "@/assets/images/trees.svg";
 import { Button } from "@/components/ui/button";
 import PrimaryButtons from "@/components/common/PrimaryButtons";
+import { Link } from "react-router-dom";
 export default function Quiz() {
   return (
     <Container className="relative flex items-center justify-center h-full overflow-hidden bg-center bg-cover">
@@ -45,7 +46,9 @@ export default function Quiz() {
             {/* <Button className="mt-4 cursor-pointer shadow-[0px_5px_0px_0px_rgba(0,0,0,0.2)] bg-white text-[#2782FF] rounded-xl">
               Start
             </Button> */}
-            <PrimaryButtons>Start</PrimaryButtons>
+            <Link to="/quiz/123">
+              <PrimaryButtons>Start</PrimaryButtons>
+            </Link>
           </div>
         </div>
       </div>

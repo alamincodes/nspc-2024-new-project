@@ -55,17 +55,13 @@ export default function SingleQuiz() {
           </div>
         </div>
         {/* right */}
-        <div className="relative w-full">
+        <div className="relative flex items-center justify-center w-full">
           <img
             src={bubbles_all}
             alt=""
             className="w-[500px] rotate-90 h-full z-10 absolute right-[300px] translate-x-44 -translate-y-12"
           />
-          <img
-            src={Bubble}
-            alt=""
-            className="w-[50px] z-10 absolute right-[300px]"
-          />
+          <img src={Bubble} alt="" className="w-[50px] z-10 absolute -top-20" />
           <img src={character} alt="" className="w-[400px] z-10 " />
           <img
             src={Bubble}

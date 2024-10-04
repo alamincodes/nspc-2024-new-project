@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { MainLayout } from "./layout/MainLayout";
 import Quiz from "./pages/quiz/Quiz";
 import SingleQuiz from "./pages/quiz/SingleQuiz";
+import Home from "./pages/home/Home";
 
 function App() {
   const routes = createBrowserRouter([
@@ -11,7 +12,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <>Home</>,
+          element: <Home />,
         },
         {
           path: "/quiz",

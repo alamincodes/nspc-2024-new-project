@@ -6,11 +6,11 @@ export const MainLayout = () => {
   return (
     <div className="bg-[#2782FF] h-full relative">
       <Navbar />
-      <div className="h-[calc(100vh-64px)]">
+      <div className="h-[calc(100vh-104px)]">
         <img
           src={wavesImg}
           alt="waves"
-          className="absolute left-0 right-0 w-full z-[]"
+          className="absolute left-0 right-0 w-full"
         />
         <Outlet />
       </div>

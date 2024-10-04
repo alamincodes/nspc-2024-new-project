@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="bg-[#1f4980] w-full sticky top-0">
-      <Container className="flex items-center justify-between py-2">
+      <Container className="flex items-center justify-between py-7">
         <div>
           <img src={Logo} alt="" className="h-12" />
         </div>

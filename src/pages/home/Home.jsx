@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex items-center text-white">
           {/* left */}
           <div className="relative z-10 w-full">
-            <img src={HomeCharacter} alt="" className="w-[500px] z-10" />
+            <img src={HomeCharacter} alt="" className="w-[800px] z-10" />
             <img
               src={bubbles_all}
               alt=""
@@ -39,13 +39,14 @@ export default function Home() {
               alt=""
               className="absolute w-full -left-20 top-10"
             />
-            <h1 className="text-right text-7xl">Lorem</h1>
-            <h3 className="mt-3 text-5xl text-right">Lorem ipsum</h3>
-            <p className="mt-3 text-right font-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              sed tempor ligula. Donec aliquet, lacus viverra ultrices
-              fermentum, metus risus venenatis augue, eget fermentum orci nisl
-              at est
+            <h1 className="text-right text-9xl">Dive into</h1>
+            <h3 className="z-10 mt-3 text-right text-7xl">Ocean</h3>
+            <p className="mt-3 text-xl text-right font-secondary">
+              We’re inspired to make it simple and engaging for students,
+              helping them understand our oceans. Our curriculum teaches
+              students to explore PACE data, map ocean ecosystems with real-time
+              data, and engage through quizzes and virtual field trips, making
+              learning fun and interactive.
             </p>
           </div>
         </div>

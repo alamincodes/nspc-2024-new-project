@@ -17,7 +17,7 @@ export default function Quiz() {
       />
       <div className="grid grid-cols-1 mt-5 gap-14">
         {quizData.map((quiz) => (
-          <Link to={quiz.quizId} key={quiz.quizId}>
+          <Link to={`${/quiz/}${quiz.quizId}`} key={quiz.quizId}>
             <div className="relative flex items-start gap-6 p-6 mt-5">
               {/* <img
                 src={fishesImg}

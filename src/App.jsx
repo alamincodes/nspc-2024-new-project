@@ -25,7 +25,7 @@ function App() {
         },
         {
           path: "/mapbox",
-          element: <VirtualTrip />,
+          element: <Quiz />,
         },
         {
           path: "/course",

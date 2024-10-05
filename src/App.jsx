@@ -4,6 +4,8 @@ import Quiz from "./pages/quiz/Quiz";
 import SingleQuiz from "./pages/quiz/SingleQuiz";
 import Home from "./pages/home/Home";
 import VirtualTrip from "./pages/VirtualTrip/VirtualTrip";
+import Courses from "./pages/courses/Courses";
+import Course from "./pages/courses/Course";
 
 function App() {
   const routes = createBrowserRouter([
@@ -28,8 +30,12 @@ function App() {
           element: <Quiz />,
         },
         {
-          path: "/course",
-          element: <VirtualTrip />,
+          path: "/courses",
+          element: <Courses />,
+        },
+        {
+          path: "/courses/:id",
+          element: <Course />,
         },
         {
           path: "/virtual-trip",

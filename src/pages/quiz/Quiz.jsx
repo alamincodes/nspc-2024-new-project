@@ -9,7 +9,7 @@ import { quizData } from "@/constant/quizData";
 
 export default function Quiz() {
   return (
-    <Container className="relative h-full bg-center bg-cover">
+    <Container className="relative h-full bg-center bg-cover hello">
       <img
         src={trees}
         alt="waves"

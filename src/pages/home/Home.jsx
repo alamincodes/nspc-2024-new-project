@@ -6,10 +6,12 @@ import Fish from "@/assets/images/Fish.svg";
 import homeTrees from "@/assets/images/homeTrees.svg";
 import bubbles_all from "@/assets/images/bubbles_all.webp";
 import { Container } from "@/components/common/Container";
+import wavesImg from "@/assets/images/waves.svg";
 
 export default function Home() {
   return (
     <div className="relative h-full overflow-hidden">
+      <img src={wavesImg} alt="waves" className="fixed left-0 right-0 w-full" />
       <Container className="flex items-center justify-center h-full overflow-hidden">
         <div className="flex items-center text-white">
           {/* left */}

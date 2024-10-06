@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import VirtualTrip from "./pages/VirtualTrip/VirtualTrip";
 import Courses from "./pages/courses/Courses";
 import Course from "./pages/courses/Course";
+import Mapbox from "./pages/mapbox/Mapbox";
 
 function App() {
   const routes = createBrowserRouter([
@@ -27,7 +28,7 @@ function App() {
         },
         {
           path: "/mapbox",
-          element: <Quiz />,
+          element: <Mapbox />,
         },
         {
           path: "/courses",
